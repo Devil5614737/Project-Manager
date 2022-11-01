@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 export const request=axios.create({
-    baseURL:'http://localhost:4000/api',
+    baseURL:'https://project-manger-backend.onrender.com/api',
     headers:{
         'x-auth-token':localStorage.getItem('token')
     }
